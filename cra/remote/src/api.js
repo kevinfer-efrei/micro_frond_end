@@ -1,5 +1,5 @@
-function api(pokemon) {
-    const getPokemon = () => {
+function api() {
+    const getPokemon = (pokemon) => {
         return fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`, {
         type: "GET",
         }).then((res) => res.json());
