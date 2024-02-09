@@ -4,7 +4,7 @@ import SharedFooter from '../../sharedcomponent/shared/Footer'
 
 const App = () => (
   <div>
-    <SharedHeader />
+    <SharedHeader title={"Client dashboard"} />
     <h1>Basic Host-Remote</h1>
     <h2>Remote</h2>
     <LocalButton />
