@@ -1,11 +1,10 @@
 import React from 'react';
 
-function Header() {
+function Header({ title }) {
     return (
         <header>
-            <h1>Paul and Kevin consulting website</h1>
+            <h1>{ title }</h1> 
             <img src="/assets/logo.png" alt="Logo" />
-
         </header>
     );
 }
