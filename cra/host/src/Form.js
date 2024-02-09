@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
  
-function ContactForm() {
+function Form() {
     // État initial pour chaque champ du formulaire
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -50,4 +50,4 @@ function ContactForm() {
     );
 }
  
-export default ContactForm;
+export default Form;
